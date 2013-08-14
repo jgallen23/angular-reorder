@@ -1,0 +1,4 @@
+
+suite('angular-reorder', function() {
+
+});

@@ -1,0 +1,15 @@
+{
+  "name": "angular-reorder",
+  "description": "Angular directive for reordering elements with drag and drop",
+  "version": "0.1.0",
+  "homepage": "http://github.com/jgallen23/angular-reorder/",
+  "license": "MIT",
+  "copyright": "Greg Allen",
+  "main": "dist/angular-reorder.js",
+  "dependencies": {
+    "angular": "1.0.7"
+  },
+  "devDependencies": {
+    "assert": "*"
+  }
+}
