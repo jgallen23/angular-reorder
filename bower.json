@@ -7,7 +7,8 @@
   "copyright": "Greg Allen",
   "main": "dist/angular-reorder.js",
   "dependencies": {
-    "angular": "1.0.7"
+    "angular": "1.0.7",
+    "reorder": "jgallen23/reorder#~0.0.1"
   },
   "devDependencies": {
     "assert": "*"

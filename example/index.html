@@ -3,12 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <title>angular-reorder example</title>
+    <style>
+      .reorder {
+        list-style: none;
+      }
+
+      .reorder li {
+        padding: 5px;
+        background: #3498db;
+        margin: 10px;
+        cursor: move;
+      }
+
+      .reorder-dragging {
+        /*display: none;*/
+      }
+
+      .reorder-placeholder {
+        opacity: .5;
+      }
+    </style>
+    <script src="../components/jquery/jquery.js"></script>
     <script src="../components/angular/angular.js"></script>
-    <script src="../dist/angular-reorder.js"></script>
+    <script src="../dist/angular-reorder.full.js"></script>
     <script src="app.js"></script>
   </head>
   <body>
     <div ng-controller="MainController">
+      <ul reorder>
+        <li draggable="true">Item 1</li>
+        <li draggable="true">Item 2</li>
+        <li draggable="true">Item 3</li>
+        <li draggable="true">Item 4</li>
+        <li draggable="true">Item 5</li>
+      </ul>
     </div>
   </body>
 </html>
