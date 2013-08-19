@@ -30,12 +30,8 @@
   </head>
   <body>
     <div ng-controller="MainController">
-      <ul reorder>
-        <li draggable="true">Item 1</li>
-        <li draggable="true">Item 2</li>
-        <li draggable="true">Item 3</li>
-        <li draggable="true">Item 4</li>
-        <li draggable="true">Item 5</li>
+      <ul reorder ng-model="itemList">
+        <li draggable="true" ng-repeat="item in itemList">{{ item }}</li>
       </ul>
     </div>
   </body>
